@@ -60,6 +60,13 @@ export default function About() {
               ))}
             </div>
           </div>
+
+          <a
+            href="#contact"
+            className="mt-8 inline-block rounded-lg bg-blue-600 text-white px-8 py-3 font-semibold hover:bg-blue-700 transition-colors"
+          >
+            Get Started Today
+          </a>
         </div>
       </div>
     </section>
