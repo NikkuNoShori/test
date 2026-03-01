@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create vite@latest . -- --template react-ts)",
+      "Bash(npm install)",
+      "Bash(timeout 10 npx vite --host)",
+      "Bash(npm run build)",
+      "Bash(timeout 8 npx vite)",
+      "Bash(git add .gitignore index.html landing-page-build-spec.md package.json package-lock.json postcss.config.js tailwind.config.js tsconfig.json vercel.json vite-env.d.ts vite.config.ts src/)",
+      "Bash(git commit:*)",
+      "Bash(git push -u origin add-hero-section)",
+      "Bash(git checkout main)",
+      "Bash(git merge add-hero-section)",
+      "Bash(git push origin main)"
+    ]
+  }
+}
